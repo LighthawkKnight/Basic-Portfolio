@@ -1,0 +1,94 @@
+body {
+    width: 960px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: auto;
+    background-image: url('../images/extra_clean_paper.png');
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+header a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 2px;
+    border-radius: 4px;
+}
+
+.name, .title{
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+p, footer, .menu {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    border: 12px solid #4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu {
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.inactive:hover{
+    background-color: rgb(219, 223, 231);
+    color: black;
+}
+
+.active {
+    background-color: rgb(33, 115, 240);
+    color: #ffffff;
+}
+
+.about_container {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.title {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+}
+
+.profile {
+    text-align: left;
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+#profile_pic {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+footer {
+    text-align: center
+}
+
+
