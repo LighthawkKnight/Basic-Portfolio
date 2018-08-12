@@ -20,8 +20,8 @@ header {
     margin: auto;
     overflow: hidden;
     margin-bottom: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header a {
@@ -46,6 +46,7 @@ header a {
     float: right;
     padding-right: 30px;
     padding-top: 20px;
+    background-clip: content-box;
 }
 
 .inactive:hover{
@@ -92,6 +93,12 @@ header a {
 
 
 footer {
+    padding: 20px;
+    color: black;
+    background-color: #ccc;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center
 }
 
